@@ -26,6 +26,7 @@ public class GridLayoutExemple extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocation(500, 300);
         this.setPreferredSize(new Dimension(300,300));
+        
         this.setLayout(new GridLayout(4, 4));
         this.setFont(new Font("SansSerif", Font.BOLD, 24));
         for (int i = 0; i < 4; i++) {
